@@ -42,6 +42,12 @@
 
 /* 3.1 Site Structure */
 
+
+.center-block {
+	float: none;
+	margin: 0 auto;
+}
+
 .wrapper {
 	width: 75%;
 	margin: 0 auto;
@@ -57,12 +63,6 @@
 [class*="col-"] {
 	float: left;
 	padding: 0 10px 20px 10px;
-}
-
-
-[class*="col-"] div {
-	background-color: teal; 
-	height: 50px;
 }
 
 .col-1-2 {
@@ -151,24 +151,7 @@
 
 
 
-/* 6.1 Medium Display */
 
-
-@media screen and (max-width: 768px) {
-	.wrapper {
-		width: 90%;
-	}
-
-	.col-1-4 {
-		width: 50%;
-	}
-
-
-	.col-1-5 {
-		width: 20%;
-	}
-
-}
 
 
 /* 6.2 Small Display */
