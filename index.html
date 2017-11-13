@@ -4,180 +4,240 @@
 <meta charset="UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
-
 <link rel="stylesheet" type="text/css" href="css/normalize.css">
-<link rel="stylesheet" type="text/css" href="css/main.css" >
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 <title>Assignment 1</title>
 </head>
 
 <body>
 
 
-<header class="wrapper">
-
-  
-
-	        	<h1><a href="#home"><img src="img/logo.png" alt=""></a></h1>
+<header id="home">
+	<div class="bg-blue">
+		<div class="wrapper row">
+  			<div class="col-1-4">
+	        	<h1><a href="#home"><img src="img/logo.png" alt="studio name logo"></a></h1>
+	        </div>
 	        
 
-			<nav>
+			<nav class="center-block col-3-4">
 	           	<ul>
-	            	   <li><a href="#">Home</a></li>
-	            	   <li><a href="#">About</a></li>
-	            	   <li><a href="#">Work</a></li>
+	            	   <li><a href="#home">Home</a></li>
+	            	   <li><a href="#about">About</a></li>
+	            	   <li><a href="#work">Work</a></li>
 	           	</ul>
    	   	
    			</nav>
 				
-			<div>
+			<div class="center-block" id="design">
 				<p>we design things</p>
-				<p> Lorem ipsum dolor sit amet, indoctum dissentiet eam ne. Eum omnium docendi cu. Aliquid delenit an pri, ad mea nostrud nominavi menandri.</p>
+				<p> Lorem ipsum dolor sit amet, indoctum dissentiet eam ne. <br> Eum omnium docendi cu. Aliquid delenit an pri, ad mea nostrud nominavi menandri.</p>
 			</div>
 
-			<div> 
-				<p><a href="#hire" class="btn">Hire Us</a></p>
-				<p><a href="#viewwork" class="btn">View Work</a></p>
-			</div>
-		
-		
+			<ul class="center-block" id="btn"> 
+				<li><a href="#about">Hire Us</a></li>
+				<li><a href="#work">View Work</a></li>
+			</ul>
+		</div>
+	</div>	
 </header>
 	
 
-<section class="wrapper">
-	<div class="col-1-2">
-		<header>
-			<h2>print design</h2>
-		</header>
-			<p>Nam purto solet eu, vero mediocrem hendrerit ad ius.</p>
-	</div>
+<section id="work">
+	<section class="row wrapper">
 
-	<div class="col-1-2">
-		<<p><img src="img/print-image.jpg" alt=""/></p>
-	</div>
+		<div class="col-lg-1-2">
+			<img src="img/print-image.jpg" alt=""/>
+		</div>
 
-</section>
+		<div class="col-lg-1-2 center-block">
+			<header>
+				<h2>print design</h2>
+			</header>
+				<p>Nam purto solet eu, vero mediocrem hendrerit ad ius.</p>
+		</div>
 
-<section class="wrapper">
-	<div class="col-1-2">
-		<header>
-			<h2>interactive</h2>
-		</header>
-			<p>Exerci antiopam constituam per ex, pro odio enim te, ut eam quidam docendi ancillae. Id nisl appareat mel.</p>
-	</div>
+	</section>
 
-	<div class="col-1-2">
-		<<p><img src="img/interactive-image.jpg" alt=""/></p>
-	</div>
+	<section class="row bg-lt-blue">
+		<div class="wrapper">
+			<div class="col-lg-1-2">
 
-</section>
+					<img src="img/interactive-image.jpg" alt=""/>
+			</div>
 
-<section class="wrapper">
-	<div class="col-1-2">
-		<header>
-			<h2>app design</h2>
-		</header>
-			<p>Vix ad posse impetus, vis id quem nobis suscipiantur. His an assum omnium periculis.</p>
-	</div>
+	
+			<div class="col-lg-1-2 center-block">
+				<header>
+					<h2>interactive</h2>
+				</header>
+					<p>Exerci antiopam constituam per ex, pro odio enim te, ut eam quidam docendi ancillae. Id nisl appareat mel.</p>
+			</div>
 
-	<div class="col-1-2">
-		<<p><img src="img/app-image.jpg" alt=""/></p>
-	</div>
+		</div>
 
-</section>
+	</section>
 
-<section class="wrapper">
-	<div class="col-1-2">
-		<header>
-			<h2>branding</h2>
-		</header>
-			<p>Lorem ipsum dolor sit amet, indoctum dissentiet eam ne. Eum omnium docendi cu.</p>
-	</div>
+	<section class="row wrapper">
 
-	<div class="col-1-2">
-		<p><img src="img/branding-image.jpg" alt=""/></p>
-	</div>
+		<div class="col-lg-1-2">
+			<img src="img/app-image.jpg" alt=""/>
+		</div>
+		<div class="col-lg-1-2 center-block">
+			<header>
+				<h2>app design</h2>
+			</header>
+				<p>Vix ad posse impetus, vis id quem nobis suscipiantur. His an assum omnium periculis.</p>
+		</div>
 
+	</section>
+
+	<section class="row bg-lt-blue">
+		<div class="wrapper">
+			<div class="col-lg-1-2">
+				<img src="img/branding-image.jpg" alt=""/>
+			</div>
+
+			<div class="col-lg-1-2 center-block">
+				<header>
+					<h2>branding</h2>
+				</header>
+					<p>Lorem ipsum dolor sit amet, indoctum dissentiet eam ne. Eum omnium docendi cu.</p>
+			</div>
+		</div>
+
+	</section>
 </section>
 
 	
-<section class="wrapper">
-	<header>
+<section class="wrapper" id="about">
+	<header class="center-block">
 		<h2>our team</h2>
-	</header>
+	
 		<p>Ea expetenda prodesset cum, tibique principes laboramus id pro. Ei dolorem facilis volutpat sed, eu pro dicta iracundia scripserit. Vel singulis posidonium ea, primis possim voluptatum ei has. Ut usu sale modus liberavisse. Eos reque mnesarchum ea, ea tamquam disputando has.</p>
-</section>
+	</header>
 
-<section>
-		<header>
-			<h3>john doe</h3>
-		</header>
-			<div>
-				<p><a href="#facebook"><img src="img/icon-facebook.png" alt="facebook icon"></a></p>
-				<p><a href="#twitter"><img src="img/icon-twitter.png" alt="icon logo"></a></p>
+	
+		<div class="row">
+		
+
+			<div class="col-lg-1-3">
+				<img src="img/john-doe.jpg" alt="john doe">
 			</div>
-			<p>Nam purto solet eu, vero mediocrem hendrerit ad ius.</p>
-</section>
 
-<section>
-		<header>
-			<h3>john doe</h3>
-		</header>
-			<div>
-				<p><a href="#facebook"><img src="img/icon-facebook.png" alt="facebook icon"></a></p>
-				<p><a href="#twitter"><img src="img/icon-twitter.png" alt="icon logo"></a></p>
+				<div class="col-lg-1-4">
+						<header>
+							<h3>John Doe</h3>
+						</header>
+							<ul>
+								<li><a href="https://www.facebook.com" target="_blank"></a></li>
+								<li><a href="https://twitter.com" target="_blank"></a></li>
+							</ul>
+							<p>Nam purto solet eu, vero mediocrem hendrerit ad ius.</p>
+				</div>
+
+	
+	
+
+		
+			<div class="col-lg-1-3"> 
+		
+				<img src="img/jane-doe.jpg" alt="jane doe">
 			</div>
-			<p>Nam purto solet eu, vero mediocrem hendrerit ad ius.</p>
-</section>
+			
+				<div class="col-lg-1-4">
+					<header>
+						<h3>Jane Doe</h3>
+					</header>
+						<ul>
+							<li><a href="https://www.facebook.com" target="_blank"></a></li>
+							<li><a href="https://twitter.com" target="_blank"></a></li>
+						</ul>
+						<p>Vix ad posse impetus, vis id quem nobis suscipiantur. His an assum omnium periculis.</p>
+				</div>
+	
+		</div>
+	
 
-<section>
-		<header>
-			<h3>jane doe</h3>
-		</header>
-			<div>
-				<p><a href="#facebook"><img src="img/icon-facebook.png" alt="facebook icon"></a></p>
-				<p><a href="#twitter"><img src="img/icon-twitter.png" alt="icon logo"></a></p>
+	
+
+
+		<div class="row">
+		
+			<div class="col-lg-1-3">
+				<img src="img/mary-smith.jpg" alt="mary smith">
 			</div>
-			<p>Vix ad posse impetus, vis id quem nobis suscipiantur. His an assum omnium periculis.</p>
-</section>
-
-<section>
-		<header>
-			<h3>mary smith</h3>
-		</header>
-			<div>
-				<p><a href="#facebook"><img src="img/icon-facebook.png" alt="facebook icon"></a></p>
-				<p><a href="#twitter"><img src="img/icon-twitter.png" alt="icon logo"></a></p>
+			<div class="col-lg-1-4">
+				<header>
+					<h3>mary smith</h3>
+				</header>
+					<ul>
+						<li><a href="https://www.facebook.com" target="_blank"></a></li>
+						<li><a href="https://twitter.com" target="_blank"></a></li>
+					</ul>
+					<p>Exerci antiopam constituam per ex, pro odio enim te, ut eam quidam docendi ancillae. Id nisl appareat mel.</p>
 			</div>
-			<p>Exerci antiopam constituam per ex, pro odio enim te, ut eam quidam docendi ancillae. Id nisl appareat mel.</p>
-</section>
+		
 
-<section>
-		<header>
-			<h3>jon smith</h3>
-		</header>
-			<div>
-				<p><a href="#facebook"><img src="img/icon-facebook.png" alt="facebook icon"></a></p>
-				<p><a href="#twitter"><img src="img/icon-twitter.png" alt="icon logo"></a></p>
+	
+
+
+
+	
+		
+			<div class="col-lg-1-3">
+				<img src="img/jon-smith.jpg" alt="jon smith">
 			</div>
-			<p>Lorem ipsum dolor sit amet, indoctum dissentiet eam ne. Eum omnium docendi cu.</p>
+			<div class="col-lg-1-4">
+				<header>
+					<h3>jon smith</h3>
+				</header>
+					<ul>
+						<li><a href="https://www.facebook.com" target="_blank"></a></li>
+						<li><a href="https://twitter.com" target="_blank"></a></li>
+					</ul>
+					<p>Lorem ipsum dolor sit amet, indoctum dissentiet eam ne. Eum omnium docendi cu.</p>
+			</div>
+		</div>
+
+
 </section>
 
 
 
-<footer>
 
-		<h1><a href="#home"><img src="img/logo.png" alt=""></a></h1>
 
-			<nav>
-	           	<ul>
-	            	   <li><a href="#">Home</a></li>
-	            	   <li><a href="#">About</a></li>
-	            	   <li><a href="#">Work</a></li>
-	           	</ul>
-   	   	
-   			</nav>
 
-   		<p>6041 Old York Road Dekalb, IL 60115</p>
+
+<footer class="bg-blue">
+	
+		<div class="wrapper">
+			<div class="row">
+			
+					<div class="col-1-4">
+						<a href="#home"><img src="img/logo.png" alt="studio name logo"></a>
+					</div>
+
+					
+					<nav>
+			           	<ul class="col-2-3">
+			            	   <li><a href="#home">Home</a></li>
+			            	   <li><a href="#about">About</a></li>
+			            	   <li><a href="#work">Work</a></li>
+			           	</ul>
+		   	   	
+		   			</nav>
+
+		   		 	<div class="col-1-4">
+		   				<p><a href="https://www.google.com/maps">6041 Old York Road Dekalb, IL 60115</a></p>
+		   			</div>
+		   	</div>	
+		   
+		</div>
+
+
+
 
 </footer>
 
@@ -190,44 +250,6 @@
 
 
 
-
-
-
-
-
-
-
-</header>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
